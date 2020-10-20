@@ -48,7 +48,7 @@ SELECT E.first_name,
 	E.last_name,
 	E.sex
 FROM employees AS E
-WHERE E.first_name = 'Hercules' AND 
+WHERE E.first_name = 'Hercules' AND last_name LIKE 'B%'
 --6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
 
 --7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
